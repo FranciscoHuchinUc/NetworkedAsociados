@@ -9,8 +9,6 @@
 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="./css/styles.css">
-
-    
   </head>
   <body>
     
@@ -23,7 +21,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link activate-link">
                 <i class="uil uil-estate nav__icon"></i> Inicio
               </a>
             </li>
@@ -64,34 +62,465 @@
     
     <main class="main">
       <section class="home section" id="home">
-        
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="https://www.facebook.com/networkedasociadosoficial/" class="home__social-icon" target="_blank">
+                <i class="uil uil-facebook-f" style="color:#0473C7"></i>
+              </a>
+              <a href="https://www.instagram.com/networkedasociadosoficial/?hl=es" class="home__social-icon" target="_blank">
+                <i class="uil uil-instagram" style="color:#6E00FB"></i>
+              </a>
+              <a href="https://www.youtube.com/c/NetworkedAsociadosOficial" class="home__social-icon" target="_blank">
+                <i class="uil uil-youtube" style="color:#D40000"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                </mask>
+                <g mask="url(#mask0)">
+                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                    <image class="home__blob-img" x='12' y='18' href="./img/controller.png"/>
+                </g>
+            </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Somos Networked Asociados</h1>
+              <h3 class="home__subtitle">Una Comunidad de Videojuegos</h3>
+              <p class="home__description">Comunidad Dirigida por John Hansen Que desde los 18 Años se enemoro del mundo de los negocios</p>
+              <a href="#contact" class="button button--flex">
+                Unete a Nuestra Comunidad <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
       </section>
       
       <section class="about section" id="about">
-        
-        
+        <h2 class="section__title">Sobre el CEO</h2>
+        <span class="section__subtitle">Mi Introducción</span>
+
+        <div class="about__container container grid">
+          <img src="./img/about.jpg" alt="" class="about__img">
+
+          <div class="about__data">
+            <p class="about__description">Mi nombre es John Hansen, nací en el 92, enamorado del mundo de los negocios desde mis 18 años.  Desde muy joven represente a mi país en un deporte ciencia como el Ajedrez destacando y encontrando un nuevo rumbo</p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title"></span>
+                <span class="about__info-name">Tecnólogo en Gestión Bancaria y Entidades Financieras </span>
+              </div>
+            </div>
+          
+          </div>
+        </div>
       </section>
       
       <section class="school section" id="school">
-        
-        
+        <h2 class="section__title">Escuela Axie Infinity</h2>
+        <span class="section__subtitle">Curso Sobre Axie Infinity</span>
+
+        <div class="school__container container grid">
+          <a href="https://youtu.be/9mEy1ASRqA0" class="school__img" target="_blank">
+            <img src="./img/school.jpg" alt="" >
+          </a>
+
+          <div class="school__data">
+            <p class="school__description">Hola! Emprendedores, en esta parte encontraras un curso de Axie infinity que iré subiendo toda la información pertinente.</p>
+  
+            <div class="school__info">
+              <span class="school__info-title">CURSO BASICO 1 (Muy Pronto)</span>
+            </div>
+            <p class="school__description">No Olviden, Hacemos Directos En Twitch</p>
+          </div>
+        </div>
       </section>
       
-      <section class="scholarships section">
-        
-        
+      <section class="scholarships section" id="scholarships">
+        <h2 class="section__title">Becas Axie Infinity</h2>
+        <span class="section__subtitle">Aqui Puedes Ver los Equipos de Nuestros Becados</span>
+
+        <div class="scholarships__container container grid">
+          <div>
+            
+            <!-- BECA 0 -->
+            <div class="scholarships__content scholarships__open">
+              <dvi class="scholarships__header">
+                <i class="uil uil-user-exclamation scholarships__icon"></i>
+
+                <div>
+                  <h1 class="scholarships__title">Beca 0</h1>
+                  <span class="scholarships__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-down scholarships__arrow"></i>
+              </dvi>
+
+              <div class="scholarships__list grid">
+                <div class="scholarships__data">
+                  <div class="scholarships__titles">
+                    <h3 class="scholarships__name">Presiona El Boton Para Ver Mis Axies</h3>
+                  </div>
+                  <div class="scholarships__button">
+                    <a href="https://axie.zone/profile?ron_addr=0x210a134102754d1f4b7cc8c390c192b2de60c6fd" class="scholarships__axie-zone" target="_blank"> Ver Axie´s</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+            <!-- BECA 1 -->
+            <div class="scholarships__content scholarships__close">
+              <dvi class="scholarships__header">
+                <i class="uil uil-cell scholarships__icon"></i>
+
+                <div>
+                  <h1 class="scholarships__title">Beca 1</h1>
+                  <span class="scholarships__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-down scholarships__arrow"></i>
+              </dvi>
+
+              <div class="scholarships__list grid">
+                <div class="scholarships__data">
+                  <div class="scholarships__titles">
+                    <h3 class="scholarships__name">Presiona El Boton Para Ver Mis Axies</h3>
+                  </div>
+                  <div class="scholarships__button">
+                    <a href="https://axie.zone/profile?ron_addr=0xe25133b19a49e53c978f367cee7152df17560c84" class="scholarships__axie-zone" target="_blank"> Ver Axie´s</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            
+            <!-- BECA 2 -->
+            <div class="scholarships__content scholarships__close">
+              <dvi class="scholarships__header">
+                <i class="uil uil-cell scholarships__icon"></i>
+
+                <div>
+                  <h1 class="scholarships__title">Beca 2</h1>
+                  <span class="scholarships__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-down scholarships__arrow"></i>
+              </dvi>
+
+              <div class="scholarships__list grid">
+                <div class="scholarships__data">
+                  <div class="scholarships__titles">
+                    <h3 class="scholarships__name">Presiona El Boton Para Ver Mis Axies</h3>
+                  </div>
+                  <div class="scholarships__button">
+                    <a href="https://axie.zone/profile?ron_addr=0x210a134102754d1f4b7cc8c390c192b2de60c6fd" class="scholarships__axie-zone" target="_blank"> Ver Axie´s</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            
+            <!-- BECA 3 -->
+            <div class="scholarships__content scholarships__close">
+              <dvi class="scholarships__header">
+                <i class="uil uil-cell scholarships__icon"></i>
+
+                <div>
+                  <h1 class="scholarships__title">Beca 3</h1>
+                  <span class="scholarships__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-down scholarships__arrow"></i>
+              </dvi>
+
+              <div class="scholarships__list grid">
+                <div class="scholarships__data">
+                  <div class="scholarships__titles">
+                    <h3 class="scholarships__name">Presiona El Boton Para Ver Mis Axies</h3>
+                  </div>
+                  <div class="scholarships__button">
+                    <a href="https://axie.zone/profile?ron_addr=0x210a134102754d1f4b7cc8c390c192b2de60c6fd" class="scholarships__axie-zone" target="_blank"> Ver Axie´s</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            
+            <!-- BECA 4 -->
+            <div class="scholarships__content scholarships__close">
+              <dvi class="scholarships__header">
+                <i class="uil uil-cell scholarships__icon"></i>
+
+                <div>
+                  <h1 class="scholarships__title">Beca 4</h1>
+                  <span class="scholarships__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-down scholarships__arrow"></i>
+              </dvi>
+
+              <div class="scholarships__list grid">
+                <div class="scholarships__data">
+                  <div class="scholarships__titles">
+                    <h3 class="scholarships__name">Presiona El Boton Para Ver Mis Axies</h3>
+                  </div>
+                  <div class="scholarships__button">
+                    <a href="https://axie.zone/profile?ron_addr=0xf544f5c10d222ae7970bb6f8948587c3b99eb55d" class="scholarships__axie-zone" target="_blank"> Ver Axie´s</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            
+            <!-- BECA 5 -->
+            <div class="scholarships__content scholarships__close">
+              <dvi class="scholarships__header">
+                <i class="uil uil-cell scholarships__icon"></i>
+
+                <div>
+                  <h1 class="scholarships__title">Beca 5</h1>
+                  <span class="scholarships__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-down scholarships__arrow"></i>
+              </dvi>
+
+              <div class="scholarships__list grid">
+                <div class="scholarships__data">
+                  <div class="scholarships__titles">
+                    <h3 class="scholarships__name">Presiona El Boton Para Ver Mis Axies</h3>
+                  </div>
+                  <div class="scholarships__button">
+                    <a href="https://axie.zone/profile?ron_addr=0xed78fd80c8ec633aee9dfcc0c60ec3743f0f7205" class="scholarships__axie-zone" target="_blank"> Ver Axie´s</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            
+            <!-- BECA 6 -->
+            <div class="scholarships__content scholarships__close">
+              <dvi class="scholarships__header">
+                <i class="uil uil-cell scholarships__icon"></i>
+
+                <div>
+                  <h1 class="scholarships__title">Beca 6</h1>
+                  <span class="scholarships__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-down scholarships__arrow"></i>
+              </dvi>
+
+              <div class="scholarships__list grid">
+                <div class="scholarships__data">
+                  <div class="scholarships__titles">
+                    <h3 class="scholarships__name">Presiona El Boton Para Ver Mis Axies</h3>
+                  </div>
+                  <div class="scholarships__button">
+                    <a href="https://axie.zone/profile?ron_addr=0x0555bb0d4a5a7dfdff9c6661327f9143c85b6f1a" class="scholarships__axie-zone" target="_blank"> Ver Axie´s</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+            <!-- BECA 7 -->
+            <div class="scholarships__content scholarships__close">
+              <dvi class="scholarships__header">
+                <i class="uil uil-cell scholarships__icon"></i>
+
+                <div>
+                  <h1 class="scholarships__title">Beca 7</h1>
+                  <span class="scholarships__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-down scholarships__arrow"></i>
+              </dvi>
+
+              <div class="scholarships__list grid">
+                <div class="scholarships__data">
+                  <div class="scholarships__titles">
+                    <h3 class="scholarships__name">Presiona El Boton Para Ver Mis Axies</h3>
+                  </div>
+                  <div class="scholarships__button">
+                    <a href="https://axie.zone/profile?ron_addr=0xb43ebdd5fcb46a082059245ca879cba42109a95e" class="scholarships__axie-zone" target="_blank"> Ver Axie´s</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            
+            <!-- BECA 8 -->
+            <div class="scholarships__content scholarships__close">
+              <dvi class="scholarships__header">
+                <i class="uil uil-cell scholarships__icon"></i>
+
+                <div>
+                  <h1 class="scholarships__title">Beca 8</h1>
+                  <span class="scholarships__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-down scholarships__arrow"></i>
+              </dvi>
+
+              <div class="scholarships__list grid">
+                <div class="scholarships__data">
+                  <div class="scholarships__titles">
+                    <h3 class="scholarships__name">Presiona El Boton Para Ver Mis Axies</h3>
+                  </div>
+                  <div class="scholarships__button">
+                    <a href="https://axie.zone/profile?ron_addr=0x70ee643b75efad66ab5a86377e1b60342e524ff4" class="scholarships__axie-zone" target="_blank"> Ver Axie´s</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            
+            <!-- BECA 9 -->
+            <div class="scholarships__content scholarships__close">
+              <dvi class="scholarships__header">
+                <i class="uil uil-cell scholarships__icon"></i>
+
+                <div>
+                  <h1 class="scholarships__title">Beca 9</h1>
+                  <span class="scholarships__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-down scholarships__arrow"></i>
+              </dvi>
+
+              <div class="scholarships__list grid">
+                <div class="scholarships__data">
+                  <div class="scholarships__titles">
+                    <h3 class="scholarships__name">Presiona El Boton Para Ver Mis Axies</h3>
+                  </div>
+                  <div class="scholarships__button">
+                    <a href="https://axie.zone/profile?ron_addr=0x210a134102754d1f4b7cc8c390c192b2de60c6fd" class="scholarships__axie-zone" target="_blank"> Ver Axie´s</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            
+            <!-- BECA 10 -->
+            <div class="scholarships__content scholarships__close">
+              <dvi class="scholarships__header">
+                <i class="uil uil-cell scholarships__icon"></i>
+
+                <div>
+                  <h1 class="scholarships__title">Beca 10</h1>
+                  <span class="scholarships__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-down scholarships__arrow"></i>
+              </dvi>
+
+              <div class="scholarships__list grid">
+                <div class="scholarships__data">
+                  <div class="scholarships__titles">
+                    <h3 class="scholarships__name">Presiona El Boton Para Ver Mis Axies</h3>
+                  </div>
+                  <div class="scholarships__button">
+                    <a href="https://axie.zone/profile?ron_addr=0x210a134102754d1f4b7cc8c390c192b2de60c6fd" class="scholarships__axie-zone" target="_blank"> Ver Axie´s</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+
       </section>
       
       <section class="contact section" id="contact">
-        
-        
+        <h2 class="section__title">Contactanos</h2>
+        <span class="section__subtitle">Se parte de Nuestra Comunidad <br> Hacemos directos en Twitch </span>
+
+        <div class="contact__container container grid">
+          <div>
+
+            <a href="https://t.me/networkedasociadosOficial" class="contact__information" target="_blank">
+              <i class="uil uil-telegram-alt contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Telegram</h3>
+                <span class="contact__subtitle">Networked Asociados</span>
+              </div>
+            </a>
+            
+            <a href="https://www.instagram.com/networkedasociadosoficial/?hl=es" class="contact__information" target="_blank">
+              <i class="uil uil-instagram contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Instagram</h3>
+                <span class="contact__subtitle">Networked Asociados</span>
+              </div>
+            </a>
+
+            <a href="https://twitter.com/JohnHansenSP" class="contact__information" target="_blank">
+              <i class="uil uil-twitter-alt contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Twitter</h3>
+                <span class="contact__subtitle">Networked Asociados</span>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
       </section>
     </main>
     
     <footer class="footer">
-      
-      
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Networked Asociados</h1>
+            <span class="footer__subtitle">Una Comunidad De Videojuegos</span>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; Networked Asociados. All right reserved | Francisco Huchin</p>
+      </div>
     </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
     
     <script src="./js/main.js"></script>
     
